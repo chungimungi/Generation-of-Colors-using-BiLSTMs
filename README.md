@@ -14,6 +14,3 @@ The model architecture consists of a bidirectional SimpleRNN layer followed by a
 
 **Training**
 The model is trained using the fit function from TensorFlow. The color names are tokenized and padded to a maximum length of 25 characters using the Tokenizer and sequence.pad_sequences functions. The RGB values are normalized to the range [0, 1]. The training process is configured with the Adam optimizer, mean squared error (MSE) loss function, and accuracy metric. The training history is stored in the history variable.
-
-**Dataset**
-src: [[https://github.com/Tony607/Keras-Colors](https://github.com/Tony607/Keras-Colors/blob/master/colors.csv)]
