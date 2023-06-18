@@ -1,7 +1,11 @@
 **Color Prediction with RNN**
 
-This repository contains code for a color prediction model using a recurrent neural network (RNN) implemented with TensorFlow. The model takes color names as input and predicts the corresponding RGB values.
+This repository contains code for a color prediction model using a recurrent neural network (RNN) implemented with TensorFlow. The model takes color names as input and predicts the corresponding RGB values. I have used 3 RNN models :
+1. BiRNN
+2. CRNN using LSTM
+3. GRU
 
+I will soon release a comparative report on their accuarcies within the same parameters for my dataset
 
 **Dependencies**
 
@@ -12,10 +16,6 @@ matplotlib
 Dataset
 The model is trained on a dataset of color names and their corresponding RGB values. The dataset is provided in a CSV file named colors.csv.
 
-
-**Model Architecture**
-
-The model architecture consists of a bidirectional SimpleRNN layer followed by a fully connected (Dense) layer and an output layer. The SimpleRNN layer processes the input sequences of color names, and the fully connected layers help in capturing the underlying patterns and relationships. The output layer uses the sigmoid activation function to predict the RGB values.
 
 **Training**
 
