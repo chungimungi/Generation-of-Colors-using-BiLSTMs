@@ -5,7 +5,6 @@ This repository contains code for a color prediction model using a recurrent neu
 2. CRNN using LSTM
 3. GRU
 
-I will soon release a comparative report on their accuarcies within the same parameters for my dataset
 
 **Dependencies**
 
