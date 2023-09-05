@@ -1,9 +1,8 @@
 **Color Prediction with RNN**
 
 This repository contains code for a color prediction model using a recurrent neural network (RNN) implemented with TensorFlow. The model takes color names as input and predicts the corresponding RGB values. I have used 3 RNN models :
-1. BiRNN
-2. CRNN using LSTM
-3. GRU
+1. CRNN using LSTM
+2. GRU
 
 
 **Dependencies**
