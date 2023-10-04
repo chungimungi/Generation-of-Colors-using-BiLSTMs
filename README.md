@@ -30,4 +30,4 @@ The model has 68K trainable parameters and is trained for 150 epochs with a vali
 * Develop new ways to interact with computers and other devices.
 
 
-**Note: This model is still under developement and is not final. Still wokring on improving the acuracy and increasing my datasets size**
+**Note: This model is still under developement and is not final. Still working on improving the acuracy and increasing my datasets size**
