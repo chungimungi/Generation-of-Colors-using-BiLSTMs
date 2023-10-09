@@ -1,7 +1,7 @@
 **Color Prediction**
 --------------------------------------------
 
-This model implements a Bidirectional Long Short Term Memory that uses a custom dataset created by me. The model is trained on this dataset to predict colors based on a user inputted query. The model is trained on a relation between color names and their respecitve rgb values.
+This model implements a Bidirectional Long Short Term Memory that uses a custom dataset created by me. The model is trained on this dataset to predict colors based on a user inputted query. The model is trained on a relation between color names and their respecitve RGB values.
 
 
 **Model Hyperparameters**
