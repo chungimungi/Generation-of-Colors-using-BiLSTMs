@@ -47,7 +47,7 @@ model.add(Dense(3, activation='sigmoid'))
 model.add(Dropout(0.2))
 model.compile(optimizer='adam', loss='mse', metrics=['acc'])
 
-history = model.fit(np.repeat(padded_names[:, :, np.newaxis], 3, axis=-1), normalized_values, epochs=500, batch_size=256, validation_split=0.20)
+history = model.fit(np.repeat(padded_names[:, :, np.newaxis], 3, axis=-1), normalized_values, epochs=350, batch_size=256, validation_split=0.20)
 
 def plot_rgb(rgb):
     data = [[rgb]]
