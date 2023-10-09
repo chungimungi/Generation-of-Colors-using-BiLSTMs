@@ -7,7 +7,7 @@ This model implements a Bidirectional Long Short Term Memory that uses a custom 
 **Model Hyperparameters**
 ------------------------------------
 
-The model has 620K trainable parameters and is trained for 600 epochs with a validation and dropout of 0.2. The model also has a batch size of 256 all these hyperparamters help the model to achieve an accuracy of .
+The model has 627K trainable parameters and is trained for 600 epochs with a validation and dropout of 0.2. The model also has a batch size of 256 all these hyperparamters help the model to achieve an accuracy of 73%.
 
 
 
