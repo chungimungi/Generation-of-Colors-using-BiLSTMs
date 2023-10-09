@@ -25,3 +25,7 @@ Prompt: Mohagany
 Prompt: Rosewood
 
 ![image](https://github.com/chungimungi/Color-prediction/assets/90822297/3f7b3ef8-1a5e-4067-9666-50774149fecb)
+
+Prompt: Semolina
+
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/a2642165-a466-4805-af08-ce3fcff2d2bc)
