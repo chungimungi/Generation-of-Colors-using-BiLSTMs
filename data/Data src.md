@@ -4,7 +4,7 @@ src : https://github.com/meodai/color-names
 
 Original dataset was in hsv format for the color codes converted to RGB using a simple script
 
-[scripts/conv.py](Script)
+[Script used to convert HSV to RGB](scripts/conv.py)
 
 **colors1.csv**
 
