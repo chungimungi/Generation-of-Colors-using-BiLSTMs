@@ -45,4 +45,4 @@ Prompt : Sunset
 
 
 
-**Note: This model is still under developement and is not final. Still working on improving the acuracy and increasing my datasets size**
+**Note: This model is still under developement and is not final. Still working on improving the accuracy and increasing my datasets size**
