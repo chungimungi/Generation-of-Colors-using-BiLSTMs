@@ -7,7 +7,7 @@ This model implements a Bidirectional Long Short Term Memory that uses a custom 
 **Model Hyperparameters**
 ------------------------------------
 
-The model has 627K trainable parameters and is trained for 350 epochs with a validation and dropout of 0.2. The model also has a batch size of 256 all these hyperparamters help the model to achieve an accuracy of 73%.
+The model has 627K trainable parameters and is trained for 350 epochs with a validation and dropout of 0.2. The model trains on a batch size of 256 all these hyperparamters help the model to achieve an accuracy of 73%.
 
 ![main model](https://github.com/chungimungi/Color-prediction/assets/90822297/e875c481-13a4-4ec9-af81-17df59a1e3df)
 
