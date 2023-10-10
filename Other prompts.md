@@ -29,3 +29,23 @@ Prompt: Rosewood
 Prompt: Semolina
 
 ![image](https://github.com/chungimungi/Color-prediction/assets/90822297/a2642165-a466-4805-af08-ce3fcff2d2bc)
+
+Prompt: Cucumber
+
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/ca80ccc6-0c72-4783-a37c-a4a4ac38e1ad)
+
+Prompt: Orange and Pink
+
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/6c5de910-fa15-4cea-b33a-7871f84f1784)
+
+Prompt : Neon Pink
+
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/e0bd96cc-45ed-4935-bea5-cfd5467e0e7e)
+
+Prompt : Rust
+
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/c651a398-fb83-41ba-aaee-c18d5ab25e7b)
+
+Prompt : Smoke
+
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/707e823d-4a3b-4069-92d4-f6e9a93a5ff6)
