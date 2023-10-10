@@ -12,4 +12,4 @@ src : *unkown*
 
 **colors.csv**
 
-A combination of the two mentioned above datasets.
+A combination of the two mentioned above datasets (dataset that was used).
