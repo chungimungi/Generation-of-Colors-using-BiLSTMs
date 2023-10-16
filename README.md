@@ -5,13 +5,13 @@
 **Color Prediction**
 --------------------------------------------
 
-This model implements a Bidirectional Long Short Term Memory that uses a custom dataset created by me. The model is trained on this dataset to predict colors based on a user inputted query. The model is trained on a relation between color names and their respecitve RGB values.
+This model implements a Bidirectional Long Short Term Memory that uses a custom dataset created by me. The model is trained on this dataset to predict colors based on a user inputted query. The model is trained on a relation between color names and their respecitve RGB values. A function is then called upon utilizing a dataset of english adjectives and a list of primary and secondary colors. Each color in the list is mapped to adjectives present in the dataset and then prompted through the intially trained model. It is then added back to the ```colors.csv``` file and then trained again to predict colors.
 
 
 **Model Hyperparameters**
 ------------------------------------
 
-The model has 1.3M trainable parameters and is trained for 350 epochs with a validation and dropout of 0.2. The model trains on a batch size of 256 all these hyperparamters help the model to achieve an accuracy of 73%. (On both training loops)
+The model has 1.3M trainable parameters and is trained for 350 epochs with a validation and dropout of 0.2. The model trains on a batch size of 256 all these hyperparamters help the model to achieve an accuracy of 73%. The model is initially trained for 350 epochs on a batch size of 512 as well as for the Curriculum Learning step.
 
 ![model](https://github.com/chungimungi/Color-prediction/assets/90822297/4e559504-46e2-46cb-97d7-cb7592a7fbe4)
 
