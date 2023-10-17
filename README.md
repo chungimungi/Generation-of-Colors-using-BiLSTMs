@@ -11,7 +11,7 @@ This model implements a Bidirectional Long Short Term Memory that uses a custom 
 **Model Hyperparameters**
 ------------------------------------
 
-The model has 1.3M trainable parametersl to achieve an accuracy of 72%. The model is initially trained for 350 epochs on a batch size of 512 and for the Active Learning step a batch size of 1024 and 250 epochs. The first training loop the model achieves 73% accuracy and the second training loop after the active learning step it achieves.
+The model has 1.3M trainable parameters. The model is initially trained for 350 epochs on a batch size of 512 and for the Active Learning step a batch size of 1024 and 15 epochs. The first training loop the model achieves 73% training accuracy with 67% validation accuracy and the second training loop after the active learning step it achieves 75% training accuracy with 85% validation accuracy
 
 ![model](https://github.com/chungimungi/Color-prediction/assets/90822297/4e559504-46e2-46cb-97d7-cb7592a7fbe4)
 
