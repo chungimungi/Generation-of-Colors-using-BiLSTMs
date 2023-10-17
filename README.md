@@ -22,23 +22,23 @@ The model has 1.3M trainable parameters. The model is initially trained for 350 
 
 Prompt : Red
 
-![image](https://github.com/chungimungi/Color-prediction/assets/90822297/db4786e9-3df1-47aa-aec0-a0e5c824eea6)
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/41c44bcd-d4ef-445e-9335-1d9d10669a48)
 
 Prompt : Deep Purple
 
-![image](https://github.com/chungimungi/Color-prediction/assets/90822297/f07f8164-c78f-493d-985d-da07a8e531fa)
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/35b44bcb-9de1-4f0f-b519-e034960568d7)
 
 Prompt : Olive Green
 
-![image](https://github.com/chungimungi/Color-prediction/assets/90822297/8ff6e3e4-6baa-4947-a0f3-99b3f8f1b9d5)
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/83f297a3-6af7-40ca-896a-44c38fad8104)
 
 Prompt : Bubblegum Pink
 
-![image](https://github.com/chungimungi/Color-prediction/assets/90822297/c979e3bd-fd76-4526-a366-ac7e55625268)
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/91c37526-09c3-4df1-9cd9-74705612a074)
 
 Prompt : Sunset
 
-![image](https://github.com/chungimungi/Color-prediction/assets/90822297/dce49b90-4014-422b-b5e0-3276b72a4047)
+![image](https://github.com/chungimungi/Color-prediction/assets/90822297/bbc64e49-1649-4164-b91d-b155215b3d37)
 
 **Possible Applications**
 -------------------------------------
