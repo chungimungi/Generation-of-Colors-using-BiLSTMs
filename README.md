@@ -51,4 +51,15 @@ Prompt : Sunset
 
 
 
-**Note: This model is still under developement and is not final. Still working on improving the accuracy and increasing my datasets size**
+**Note: Paper under review to cite pre-print:**
+
+```
+@misc{sinha2023generation,
+      title={Generation Of Colors using Bidirectional Long Short Term Memory Networks}, 
+      author={A. Sinha},
+      year={2023},
+      eprint={2311.06542},
+      archivePrefix={arXiv},
+      primaryClass={cs.CV}
+}
+```
