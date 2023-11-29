@@ -1,7 +1,7 @@
 ![image](https://img.shields.io/badge/Keras-FF0000?style=for-the-badge&logo=keras&logoColor=white)
 ![image](https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white)
 [![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/generation-of-colors-using-bidirectional-long/text-to-image-generation-on-colors)](https://paperswithcode.com/sota/text-to-image-generation-on-colors?p=generation-of-colors-using-bidirectional-long)
-
+[![arXiv](https://img.shields.io/badge/arXiv-1234.56789-b31b1b.svg)](https://arxiv.org/abs/2311.06542)
 
 **Color Prediction**
 --------------------------------------------
