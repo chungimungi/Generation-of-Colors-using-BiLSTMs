@@ -49,8 +49,6 @@ Prompt : Sunset
 
 
 
-**Note: Paper under review to cite pre-print:**
-
 ```
 @misc{sinha2023generation,
       title={Generation Of Colors using Bidirectional Long Short Term Memory Networks}, 
