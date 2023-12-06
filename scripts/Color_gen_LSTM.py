@@ -41,7 +41,7 @@ model.add(Dense(64, activation='tanh'))
 model.add(Dense(64, activation='tanh'))
 model.add(Dense(3, activation='sigmoid'))
 model.add(Dropout(0.2))
-model.compile(optimizer='adam', loss='mse', metrics=['acc'])
+model.compile(optimizer='adam', loss='mae', metrics=['acc'])
 
 # Train the model with the initial data
 history = model.fit(np.repeat(padded_names[:, :, np.newaxis], 3, axis=-1), normalized_values, epochs=350, batch_size=512, validation_split=0.20)
