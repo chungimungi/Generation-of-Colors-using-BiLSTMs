@@ -7,14 +7,12 @@ import numpy as np
 import pandas as pd
 
 if tf.test.is_gpu_available():
-    # Force TensorFlow to use the GPU
     config = tf.compat.v1.ConfigProto(device_count={'GPU': 1})
-    config.gpu_options.allow_growth = True  # Allow GPU memory growth
+    config.gpu_options.allow_growth = True 
     tf.compat.v1.keras.backend.set_session(tf.compat.v1.Session(config=config))
 else:
     print("No GPU available, using CPU.")
 
-# Load and preprocess your data
 np.random.seed(10)
 data = pd.read_csv("colors.csv")
 names = data["name"]
@@ -31,7 +29,6 @@ def scale(n):
 normalized_values = np.column_stack([data["red"], data["green"], data["blue"]])
 normalized_values = normalized_values / 255.0
 
-# Create and compile your model
 model = Sequential()
 model.add(Conv1D(256, kernel_size=3, activation='relu', input_shape=(maxlen, 3)))
 model.add(Bidirectional(LSTM(256, activation='tanh')))
@@ -43,10 +40,8 @@ model.add(Dense(3, activation='sigmoid'))
 model.add(Dropout(0.2))
 model.compile(optimizer='adam', loss='mae', metrics=['acc'])
 
-# Train the model with the initial data
 history = model.fit(np.repeat(padded_names[:, :, np.newaxis], 3, axis=-1), normalized_values, epochs=350, batch_size=512, validation_split=0.20)
 
-# Function to generate color names by combining adjectives and colors
 def generate_color_names():
     with open('adj.txt', 'r') as file:
         adjectives = file.read().splitlines()
@@ -59,7 +54,6 @@ def generate_color_names():
 
 path = 'colors.csv'
 
-# Function to predict RGB values and update the CSV
 def predict_and_update(name):
     global path
     name = name.lower()
@@ -71,13 +65,11 @@ def predict_and_update(name):
     path = 'colors.csv'
     data.to_csv(path, index=False)
 
-# Automated loop for generating and updating color names
 for color_name in generate_color_names():
     predict_and_update(color_name)
 
 print("\n Task Done \n")
 
-# Retrain the model after adding new data
 names = data["name"]
 normalized_values = np.column_stack([data["red"], data["green"], data["blue"]])
 normalized_values = normalized_values / 255.0
